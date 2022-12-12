@@ -118,24 +118,20 @@
                         </div>
 
                         <form class="row beatbox">
-                            <div class="col-4"><label for="datetime" class="form-label">Select Time</label>
+                            <div class="col-4"><label for="datetime" class="form-label">Select Date</label>
 
                                 <input type="date" class="form-control" id="datetime">
                             </div>
-                            <div class="col-4"><label for="datetime" class="form-label">Select Date</label>
 
+                            <div class="col-4"><label for="datetime" class="form-label">Select Time</label>
                                 <input type="time" class="form-control" id="datetime">
                             </div>
                             <div class="col-4">
-                                <label for="exampleDataList" class="form-label">Pick Up Instructions</label>
-                                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-                                <datalist id="datalistOptions">
-                                        <option value="San Francisco">
-                                        <option value="New York">
-                                        <option value="Seattle">
-                                        <option value="Los Angeles">
-                                        <option value="Chicago">
-                                    </datalist>
+                                <label for="datetime" class="form-label">Pick up instructions</label>
+                                <select class="form-select form-control form-select-lg mb-3" aria-label=".form-select-lg example">
+                                    <option value="1">At my door</option>
+                                    <option value="2"> In person</option>
+                                  </select>
                             </div>
                         </form>
                     </div>
@@ -147,24 +143,20 @@
                         </div>
 
                         <form class="row beatbox">
-                            <div class="col-4"><label for="datetime" class="form-label">Select Time</label>
 
+                            <div class="col-4"><label for="datetime" class="form-label">Select Date</label>
                                 <input type="date" class="form-control" id="datetime">
                             </div>
-                            <div class="col-4"><label for="datetime" class="form-label">Select Date</label>
+                            <div class="col-4"><label for="datetime" class="form-label">Select Time</label>
 
                                 <input type="time" class="form-control" id="datetime">
                             </div>
                             <div class="col-4">
-                                <label for="exampleDataList" class="form-label">Pick Up Instructions</label>
-                                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
-                                <datalist id="datalistOptions">
-                                        <option value="San Francisco">
-                                        <option value="New York">
-                                        <option value="Seattle">
-                                        <option value="Los Angeles">
-                                        <option value="Chicago">
-                                    </datalist>
+                                <label for="datetime" class="form-label">Pick up instructions</label>
+                                <select class="form-select form-control form-select-lg mb-3" aria-label=".form-select-lg example">
+                                    <option value="1">At my door</option>
+                                    <option value="2"> In person</option>
+                                  </select>
                             </div>
 
                         </form>
@@ -261,6 +253,34 @@
                     </div>
 
 
+                </div>
+
+
+
+                <button type="button" class="btn next-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Launch modal </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="md-header text-center">
+                                <h1 class="modal-title fs-5 text-center" style="color: #F37021;" id="staticBackdropLabel">Urgent Delivery</h1>
+                            </div>
+                            <div class="modal-body ">
+
+                                <p class="modal-item text-center    ">You selected next day delivery (Urgent) which is subject to 50% surchange. For free delivery select 48hrs time slot</p>
+
+                                <!-- <p class="modal-item">For shoe care service please place a separate order</p> -->
+
+
+
+                            </div>
+                            <div class="modal-footer text-center">
+                                <button type="button" class="btn  modal-accept" style="margin: auto;" data-bs-dismiss="modal">Accept</button>
+                                <button type="button" class="btn  modal-accept" style="margin: auto;" data-bs-dismiss="modal">No</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="bottom-buttons text-right">
                     <div class="my-5 ">

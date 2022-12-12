@@ -407,3 +407,25 @@ a.jus-single.btn.btn-waGstarted {
         margin-top: 1rem;
     }
 }
+
+.md-header {
+    margin-top: 1.5rem;
+}
+
+.modal-item {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.modal-accept {
+    height: 60px;
+    background-color: transparent;
+    color: #4C184E;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.modal-accept:hover {
+    border: 1px solid #4C184E;
+    color: #4C184E;
+}
