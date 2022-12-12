@@ -66,14 +66,16 @@
         <h2 class="jus-single help-text">Please Verify Your Phone Number</h2>
         <div class="jus-single">
             <!-- <input class="form-control form-control-lg phonetext text-center" type="text" placeholder="" aria-label=".form-control-lg example"> -->
-            <div class="input-group phonetext text-center">
-                <select class="form-select" id="cntry-code" aria-label=" ">
-                  <option selected>+263</option>
-                  <option value="1">+27</option>
-                  <option value="2">+41</option>
-                  <option value="3">+34</option>
-                </select>
-                <input class="form-control form-control-lg phonetext text-center" type="text" placeholder="" aria-label=".form-control-lg example">
+            <div class="input-group phonetext text-left">
+                <input class="form-control form-control-lg" list="datalistOptions" style="width: 5rem;" id="exampleDataList" placeholder="">
+                <datalist id="datalistOptions">
+                  <option value="+263">
+                  <option value="+27">
+                  <option value="+42">
+                  <option value="+41">
+                  <option value="+1">
+                </datalist>
+                <input class="form-control form-control-lg phonetext text-left" type="number" placeholder="" aria-label=".form-control-lg example">
             </div>
         </div>
         <a href="verify.html" type="button" class=" jus-single btn btn-waGstarted ">Verify</a>

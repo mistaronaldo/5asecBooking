@@ -15,6 +15,22 @@ p {
     color: #4C184E;
 }
 
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    --moz-appearance: textfield;
+}
+
 .text-left {
     text-align: left!important;
 }
@@ -122,6 +138,11 @@ p {
     width: 50%;
 }
 
+.left-Brh4,
+.left-Brp {
+    color: #ffffff;
+}
+
 
 /* End */
 
@@ -145,6 +166,10 @@ a.jus-single.btn.btn-waGstarted.btn-disabled {
 .phonetext {
     width: 25Rem;
     margin: auto;
+}
+
+.input-group.phonetext.text-left {
+    flex-wrap: nowrap;
 }
 
 .help-text {
@@ -345,6 +370,33 @@ a.jus-single.btn.btn-waGstarted {
 
 .col-md-8 .order-details.shadow-sm h4 {
     color: #4C184E;
+}
+
+.form-check-input:checked {
+    background-color: #00C823;
+    border-color: #00C823;
+}
+
+.mybtn {
+    width: 10rem !important;
+    background-color: #F37021;
+    margin: auto;
+    color: white;
+}
+
+.mybtn2 {
+    background-color: transparent;
+    margin: auto;
+    color: #4C184E;
+    border: 1px solid #4C184E;
+}
+
+.form-control-lg {
+    min-height: calc(1.5em + 1rem + 2px);
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    margin: 0.3rem;
+    border-radius: 0.5rem;
 }
 
 
