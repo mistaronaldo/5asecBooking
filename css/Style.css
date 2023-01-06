@@ -313,6 +313,7 @@ a.jus-single.btn.btn-waGstarted {
 }
 
 .col-md-6 .form-control,
+.col-md-4 .form-control,
 .col-md-12 .form-control,
 .col-4 .form-control {
     border: #4C184E;
@@ -442,4 +443,42 @@ a.jus-single.btn.btn-waGstarted {
 .check-info {
     background-color: #EFEFF44D;
     padding: 1rem 0.2Rem;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 576px) {
+    .devider,
+    .child-tab {
+        display: none;
+    }
+    .child-tab.active {
+        display: flex;
+        text-align: center;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        padding: 1.3rem;
+    }
+    .parent-tab h6 {
+        display: none;
+    }
+    h6.active-label {
+        display: inline;
+    }
+    .form-check.col-md-6.pay-method {
+        margin-top: 20px;
+    }
+    .row.beatbox.mx-5.lol {
+        margin: 0!important;
+    }
+    .col-md-4.text-left {
+        margin-top: 2rem;
+    }
+    .phonetext {
+        width: 18Rem;
+        margin: auto;
+    }
 }
