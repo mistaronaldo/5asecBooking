@@ -102,41 +102,50 @@
 
             <div class="col-md-8 ">
 
-                <div class="container   text-left">
+
+
+                <div class="container text-left">
                     <div class="order-details shadow-sm">
-                        <h4>Pay Using</h4>
+                        <h4>My Details</h4>
                     </div>
-                    <div class="row beatbox ">
+                    <form class="row mt-4">
+                        <div class="col-md-6 text-left">
+                            <label for="datetime" class="form-label">Firstname*</label>
+                            <input type="text" class="form-control" required id="name">
+                        </div>
+                        <div class="col-md-6 text-left">
+                            <label for="datetime" class="form-label">Surname*</label>
+                            <input type="text" class="form-control" required id="name">
+                        </div>
+                        <div class="col-md-12 mt-2 text-left">
+                            <label for="datetime" class="form-label">Email*</label>
+                            <input type="email" class="form-control" required id="name">
+                        </div>
 
-                        <div class="form-check col-auto pay-method marginX-5"> <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"> <label class="form-check-label" for="flexRadioDefault1"> Cash</label> </div>
-                        <div class="form-check col-auto pay-method"> <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked> <label class="form-check-label" for="flexRadioDefault2"> Card  </label> </div>
-                    </div>
-
-                </div>
-
-                <div class="beatbox">
-                    <form class="row beatbox">
-                        <div class="col-md-6">
-                            <label for="datetime" class="form-label">Card Holder’s Name</label>
-                            <input type="text" class="form-control" id="name">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="datetime" class="form-label">Card Number</label>
-                            <input type="text" class="form-control" id="name">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="datetime" class="form-label">mm/yy/dd</label>
-                            <input type="date" class="form-control" id="name">
-                        </div>
-                        <div class="col-md-6">
-                            <label for="datetime" class="form-label">CVC</label>
-                            <input type="text" class="form-control" id="name">
-                        </div>
 
                     </form>
 
                 </div>
 
+                <div class="container beatbox  text-left">
+                    <div class="order-details shadow-sm">
+                        <h4>Pay Using</h4>
+                    </div>
+                    <div class="row beatbox mx-5">
+
+                        <div for="flexRadioDefault1" class="form-check col-6 pay-method "> <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"> <label class="form-check-label" for="flexRadioDefault1"> Cash</label>
+                            <div class="check-info shadow-sm mt-2">
+                                <p>Upon drop off, you will be required to pay for the service via cash or card</p>
+                            </div>
+                        </div>
+                        <div class="form-check col-6 pay-method"> <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked> <label class="form-check-label" for="flexRadioDefault2"> Card  </label>
+                            <div class="check-info shadow-sm mt-2">
+                                <p>Upon selection of this option, your bill will be forwarded via a link on email, to be settled during drop off</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
 
