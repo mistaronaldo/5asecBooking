@@ -15,22 +15,6 @@ p {
     color: #4C184E;
 }
 
-
-/* Chrome, Safari, Edge, Opera */
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-
-/* Firefox */
-
-input[type=number] {
-    --moz-appearance: textfield;
-}
-
 .text-left {
     text-align: left!important;
 }
@@ -138,11 +122,6 @@ input[type=number] {
     width: 50%;
 }
 
-.left-Brh4,
-.left-Brp {
-    color: #ffffff;
-}
-
 
 /* End */
 
@@ -166,10 +145,6 @@ a.jus-single.btn.btn-waGstarted.btn-disabled {
 .phonetext {
     width: 25Rem;
     margin: auto;
-}
-
-.input-group.phonetext.text-left {
-    flex-wrap: nowrap;
 }
 
 .help-text {
@@ -298,7 +273,7 @@ a.jus-single.btn.btn-waGstarted {
 
 .order-details {
     padding: 1rem 0.2Rem;
-    background-color: #efeff447;
+    background-color: #EFEFF44D;
 }
 
 .lil-detail {
@@ -313,8 +288,6 @@ a.jus-single.btn.btn-waGstarted {
 }
 
 .col-md-6 .form-control,
-.col-md-4 .form-control,
-.col-md-12 .form-control,
 .col-4 .form-control {
     border: #4C184E;
     border-style: solid;
@@ -374,6 +347,7 @@ a.jus-single.btn.btn-waGstarted {
     color: #4C184E;
 }
 
+
 .form-check-input:checked {
     background-color: #00C823;
     border-color: #00C823;
@@ -386,11 +360,12 @@ a.jus-single.btn.btn-waGstarted {
     color: white;
 }
 
-.mybtn2 {
+.mybtn2{
     background-color: transparent;
     margin: auto;
     color: #4C184E;
     border: 1px solid #4C184E;
+
 }
 
 .form-control-lg {
@@ -407,78 +382,5 @@ a.jus-single.btn.btn-waGstarted {
 @media (min-width: 992px) {
     .lg-tpad {
         margin-top: 1rem;
-    }
-}
-
-.md-header {
-    margin-top: 1.5rem;
-}
-
-.modal-item {
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.modal-accept {
-    height: 60px;
-    background-color: transparent;
-    color: #4C184E;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-.modal-accept:hover {
-    border: 1px solid #4C184E;
-    color: #4C184E;
-}
-
-.form-control:focus {
-    color: #212529;
-    background-color: #fff;
-    border-color: #4C184E;
-    outline: 0;
-    box-shadow: 0 0 0 0.25rem rgb(76 24 78 / 41%);
-}
-
-.check-info {
-    background-color: #EFEFF44D;
-    padding: 1rem 0.2Rem;
-}
-
-
-/* Media Queries */
-
-@media (max-width: 576px) {
-    .devider,
-    .child-tab {
-        display: none;
-    }
-    .child-tab.active {
-        display: flex;
-        text-align: center;
-        flex-wrap: nowrap;
-        justify-content: center;
-        width: 5rem;
-        height: 5rem;
-        padding: 1.3rem;
-    }
-    .parent-tab h6 {
-        display: none;
-    }
-    h6.active-label {
-        display: inline;
-    }
-    .form-check.col-md-6.pay-method {
-        margin-top: 20px;
-    }
-    .row.beatbox.mx-5.lol {
-        margin: 0!important;
-    }
-    .col-md-4.text-left {
-        margin-top: 2rem;
-    }
-    .phonetext {
-        width: 18Rem;
-        margin: auto;
     }
 }
